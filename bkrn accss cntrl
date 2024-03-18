@@ -6,4 +6,5 @@ x-orginal-url: /admin
 change cookie in admin user with normal user response error then change post/get/etc.,
 change user name when ?id=murugar to check with ?id=vinayagar and look for any sensitive info
 uuid 5789976-vbkifgbb-5689999 look in post or comment by users in webpage find any uuid by view other user and change to that uuid
-from my profile change user name/uuid & send request to look for any info with 302 response
+from my profile change user name/uuid & send request to look for any info with 302 response like uuid,role,email,etc.,
+same above like password is in plain in my profile change user name to view other password with 302 response
