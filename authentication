@@ -4,4 +4,5 @@ reset password by changing resettoken=x in header & in footer resettoken=x&user=
 username enum via different response like invalid user name & invalid username.(dot username if present) 
 username enum via different response time like user=carlos&password=long long string if username valid it takes time to response. if not username valid then password not processed and get response quickly.
 bruteforce protection bypass by bruteforce 2 username & valid username & continues when 3 invalid attempts and block
-
+username enum by lock out attempt 5 times username=$payload$&password=test$nullpayload5times$ if user valid it locked and responselength differ
+2fa broken logic login to account and goto the page mfa code.in cookie change the username to victim in request & delete session. if we recieve email then boom,if not get then bruteforce the digits and login without password
