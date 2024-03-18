@@ -4,3 +4,6 @@ change admin/anyrole=false to true (or) =1 to =0 or =2
 insert json param result to json request (role: 2 response next add request role: 1) lab 4 view scr.shot
 x-orginal-url: /admin
 change cookie in admin user with normal user response error then change post/get/etc.,
+change user name when ?id=murugar to check with ?id=vinayagar and look for any sensitive info
+uuid 5789976-vbkifgbb-5689999 look in post or comment by users in webpage find any uuid by view other user and change to that uuid
+
