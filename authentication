@@ -11,3 +11,4 @@ xsss thing view stayloggedin above but nnot allowing bruteforce
 x-forwarded-host: to attacker server in reset passwd poison
 password brute force in change new password by brute force current password as set payload 
 set array in password field to bruteforce protection in json like username:"carlos",password="something" but change password:["pass1","pass2","pass3","..."]
+2fa bypass using macro
