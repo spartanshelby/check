@@ -1,0 +1,7 @@
+username enum via response invalid pass / user
+drop mfa request & bypass 2fa
+reset password by changing resettoken=x in header & in footer resettoken=x&user=carlos&newpassword=something and login to carlos using new pass
+username enum via different response like invalid user name & invalid username.(dot username if present) 
+username enum via different response time like user=carlos&password=long long string if username valid it takes time to response. if not username valid then password not processed and get response quickly.
+bruteforce protection bypass by bruteforce 2 username & valid username & continues when 3 invalid attempts and block
+
