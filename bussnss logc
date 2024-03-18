@@ -5,3 +5,4 @@ the above add maximum item to cart and send to intruder and null payload continu
 inconsistent handling of exceptional input when long string can allowed in input field email then we can send a long emailstring ending with our collabrator address.com then recieve a confirm link we can register and view our email that only contain first 16 char for example. then we create a (string+@target.com 16 char long+ our collabarator .com) so we can get confrm link and register as company domain and access intersting internal access or admin panel even etc.,
 if no email verify for change email then change email to target.com domain then access admin panel or etc.,
 change password using removing current password field parameter like user=carlos&currentpass=something&newpass=123456 remove currentpassword and change the admin password dont dont do that :)
+reset passord using my account request and change my name to victim and booom
