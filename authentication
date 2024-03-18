@@ -6,4 +6,7 @@ username enum via different response time like user=carlos&password=long long st
 bruteforce protection bypass by bruteforce 2 username & valid username & continues when 3 invalid attempts and block
 username enum by lock out attempt 5 times username=$payload$&password=test$nullpayload5times$ if user valid it locked and responselength differ
 2fa broken logic login to account and goto the page mfa code.in cookie change the username to victim in request & delete session. if we recieve email then boom,if not get then bruteforce the digits and login without password
-brute force stay loggedin by if stayloggin cookie like some hash value. then decode if base64 carlos:md5 hash then decode md5 hash it was a password. then send request stay logged in request to intruder and set payloads wordlist evrything then payload processer option to set encode md5 hash the password 1st, then add before username like carlos:,then encode base64 whole then start attack.
+brute force stay loggedin by if stayloggin cookie like some hash value. then decode if base64 carlos:md5 hash then decode md5 hash it was a password. then send request stay logged in request to intruder and set payloads wordlist evrything then payload processer option to set encode md5 hash the password 1st, then add before username like carlos:,then encode base64 whole then start attack. for more view rhana khalil lab 9 utube
+xsss thing view stayloggedin above but nnot allowing bruteforce
+x-forwarded-host: to attacker server in reset passwd poison
+password brute force in change new password by brute force current password as set payload 
