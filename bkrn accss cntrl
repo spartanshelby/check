@@ -1,0 +1,4 @@
+robots.txt look for admin path
+source code look for admin path
+change admin/anyrole=false to true (or) =1 to =0 or =2
+insert json param result to json request (role: 2 response next add request role: 1) lab 4 view scr.shot
