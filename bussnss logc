@@ -1,0 +1,5 @@
+change if like price or something like that appears in parameter when add to cart price=13337.00 to price=1
+change when username appear in parameter like user=carlos then change it to victim. in this lab we login 2fa code with my 2fa code to victim
+in cart item add item=-10 & add other item to less the amnt to buy lesser or no cost
+the above add maximum item to cart and send to intruder and null payload continually till negative price then add other items to reduce the price like above
+inconsistent handling of exceptional input when long string can allowed in input field email then we can send a long emailstring ending with our collabrator address.com then recieve a confirm link we can register and view our email that only contain first 16 char for example. then we create a (string+@target.com 16 char long+ our collabarator .com) so we can get confrm link and register as company domain and access intersting internal access or admin panel even etc.,
