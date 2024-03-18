@@ -11,3 +11,4 @@ same above like password is in plain in my profile change user name to view othe
 idor change no 4 "4.txt" to "1,2,3.txt"
 if change anything with profile multiple request.someone else name or id first request error unathorization and second request reslt 200 it will bypass ( change another accounts name,uuids or etc., perform anything. lab 12 
 reffer: url/admin or url/user(id,name,uuid)
+ 
