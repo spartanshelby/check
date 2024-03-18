@@ -9,5 +9,5 @@ uuid 5789976-vbkifgbb-5689999 look in post or comment by users in webpage find a
 from my profile change user name/uuid & send request to look for any info with 302 response like uuid,role,email,etc.,
 same above like password is in plain in my profile change user name to view other password with 302 response
 idor change no 4 "4.txt" to "1,2,3.txt"
-if change anything with profile multiple request ignore any one and perform it will bypass ( requst 1-change name and request 2 continue with true then we will use another accounts name,uuids or etc., perform anything. lab 12 
+if change anything with profile multiple request.someone else name or id first request error unathorization and second request reslt 200 it will bypass ( change another accounts name,uuids or etc., perform anything. lab 12 
 reffer: url/admin or url/user(id,name,uuid)
