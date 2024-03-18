@@ -6,3 +6,5 @@ inconsistent handling of exceptional input when long string can allowed in input
 if no email verify for change email then change email to target.com domain then access admin panel or etc.,
 change password using removing current password field parameter like user=carlos&currentpass=something&newpass=123456 remove currentpassword and change the admin password dont dont do that :)
 reset passord using my account request and change my name to victim and booom
+2fa bypass by login with password then change the /login2 mfa code to /myaccount or /profile path using logged in by our account early
+buy a product from cart if two request proccesed then first one take the money from wallet and other one place the order automatically. then drop the first request to buy a product without pay
