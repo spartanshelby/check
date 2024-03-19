@@ -1,1 +1,3 @@
-reset password poison by change header to burp collab and username carlos to victim 1)send reset link with our a/c then use that request to repeater to change host & username.
+send reset password using own account. then send rest pass request to repeater and change host to collab and username to victim then send. we will recieve token then replace the token&username with our reset url
+like above but x-forwarded-host: collab.com
+in host: target.com check target:testhack then see response then modify if response like <a href='target.com:testhack/login'> then modify host: target:'<a href="/collab.com/? to our server and send victim to exploit 
