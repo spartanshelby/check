@@ -1,3 +1,7 @@
 send reset password using own account. then send rest pass request to repeater and change host to collab and username to victim then send. we will recieve token then replace the token&username with our reset url
 like above but x-forwarded-host: collab.com
 in host: target.com check target:testhack then see response then modify if response like <a href='target.com:testhack/login'> then modify host: target:'<a href="/collab.com/? to our server and send victim to exploit 
+dont understand document alert using xss with collab view lab 4
+access admin by changing host: target.com to localhost
+host header ping back to collab then change host to 192.168.0.1 and fuzz 192.168.0.1-255 path /admin to access admin
+change host header using collab and in get https://target.com/admin and its ping to collab then fuzz like above
