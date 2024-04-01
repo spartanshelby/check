@@ -1,3 +1,4 @@
 change username to admin
 change signature rsa256 to none also change user to admin
+bruteforce signature using hashcat and using that finding key to write new signature
 
