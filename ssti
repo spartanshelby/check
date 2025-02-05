@@ -14,4 +14,5 @@ https://youtu.be/KRn36E3qpmk?si=jQX-XzXqFO3hiQNr
 5)
 https://youtu.be/8o5QPU-BvFQ?si=vKH2CW2Tu1prbHXk
 
-6)
+6) something like in edit template ((sometjing.object)) then put ((test)) fake value to make error and see the which template is used. use that payload to exploit
+https://youtu.be/Kr4Vup8W3-8?si=0nx3sQscaqTTObOu
