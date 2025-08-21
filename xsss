@@ -13,3 +13,10 @@ but the script tag content is treated as text, not HTML.
 payload with svg
 <svg><script>alert&#x28;'1'&#x29;</script>
 Executed because SVG elements can contain script elements that execute in HTML context
+
+
+
+level 5
+onfocus or whatever the starts on.+?= is blocked by waf then enter before = to bypass waf
+payload="on.+?
+="
